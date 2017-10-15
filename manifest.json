@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Privacy Control",
+	"version": "1.0",
+	"description": "Unified privacy control portol for social networks",
+	"icons":{
+		"48": "img/logo.png"
+	},
+	"permissions": [
+    	"storage",
+    	"notifications"
+  	],
+	"browser_action": {
+		"default_icon": "img/logo.png",
+		"default_popup": "popup.html"
+	}
+}
